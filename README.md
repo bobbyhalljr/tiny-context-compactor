@@ -69,9 +69,9 @@ To use it with a real agent, build each model request from `view()` and swap `to
 
 ## Write-up
 
-Full tutorial: SUBSTACK_URL
+Full tutorial: https://bobbyhalljr.substack.com/p/your-agent-rereads-every-tool-result
 
-Also: DEV_URL
+Also: https://dev.to/bobbyhalljr/your-agent-rereads-every-tool-result-build-a-tiny-context-compactor-in-typescript-2l9f
 
 ## License
 
