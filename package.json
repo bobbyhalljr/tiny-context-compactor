@@ -1,0 +1,25 @@
+{
+  "name": "tiny-context-compactor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A tiny context compactor for agent loops in TypeScript: cap big tool results, keep failure lines, elide old results, drop (never rewrite) at 85%. Mocked tools, no API key.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Bobby Hall Jr (https://bhjr.dev)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobbyhalljr/tiny-context-compactor.git"
+  },
+  "scripts": {
+    "start": "tsx compact.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

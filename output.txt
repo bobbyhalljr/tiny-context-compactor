@@ -1,0 +1,10 @@
+10 model calls, 9 tool results, window 32,000 tokens (example run)
+
+policy          billed        peak   fits           FAIL seen at call 3
+naive          290,208      58,205   no (call 7)    yes
+cap             22,905       4,242   yes            no
+cap+errors      23,057       4,261   yes            yes
+full             9,367       1,637   yes            yes
+
+retrieve("offload://turn-2", /FAIL/):
+  FAIL src/checkout.test.ts > applies 10% coupon: expected 90, received 100
